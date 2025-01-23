@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import InputText from "~/ui/InputText";
+import BtnAdd from "~/ui/BtnAdd/component";
+
 
 export default function Home() {
   return (
@@ -15,15 +18,3 @@ export default function Home() {
   );
 }
 
-const  InputText = () => {
-  return (
-    <input type="text" placeholder="Ingresar tarea..."></input>
-  )
-}
-
-
-const BtnAdd = () => {
-  return (
-    <button type="button">Enviar</button>
-  )
-}
