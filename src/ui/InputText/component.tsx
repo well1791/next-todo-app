@@ -1,7 +1,7 @@
 const  InputText = () => {
-    return (
-      <input type="text" placeholder="Ingresar tarea..."></input>
-    )
-  }
+  return (
+    <input type="text" placeholder="Ingresar tarea..."></input>
+  )
+}
 
-  export default InputText
+export default InputText

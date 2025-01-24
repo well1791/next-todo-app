@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import InputText from "~/ui/InputText";
-import BtnAdd from "~/ui/BtnAdd/component";
+import BtnAdd from "~/ui/BtnAdd";
 
 
 export default function Home() {
@@ -17,4 +17,5 @@ export default function Home() {
     </div>
   );
 }
+
 
