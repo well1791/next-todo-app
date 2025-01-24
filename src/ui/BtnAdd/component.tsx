@@ -1,4 +1,4 @@
-const BtnAdd = () => {
+function BtnAdd() {
   return (
     <button type="button">Enviar</button>
   )

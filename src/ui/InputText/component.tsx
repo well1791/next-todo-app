@@ -1,4 +1,4 @@
-const  InputText = () => {
+function InputText() {
   return (
     <input type="text" placeholder="Ingresar tarea..."></input>
   )
