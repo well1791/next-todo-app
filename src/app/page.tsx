@@ -12,10 +12,8 @@ export default function Home() {
         <InputText />
       </div>
       <div>
-        <BtnAdd />
+        <BtnAdd className="btn-class">Enviar</BtnAdd> {/* Aqui solo estaba asi <BtnAdd /> */}
       </div>
     </div>
   );
 }
-
-

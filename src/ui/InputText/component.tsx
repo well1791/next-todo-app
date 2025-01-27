@@ -1,6 +1,6 @@
 function InputText() {
   return (
-    <input type="text" placeholder="Ingresar tarea..."></input>
+    <input type="text" placeholder="Ingresar tarea..."/>
   )
 }
 
