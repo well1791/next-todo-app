@@ -9,10 +9,12 @@ export default function Home() {
     <div>
       <h1>To Do List</h1>
       <div>
-        <InputText />
+        <InputText onChange={(text) => {
+          console.log(text);
+        }}/>
       </div>
       <div>
-        <BtnAdd className="btn-class">Enviar</BtnAdd> {/* Aqui solo estaba asi <BtnAdd /> */}
+        <BtnAdd className="btn-class">Enviar</BtnAdd>
       </div>
     </div>
   );
