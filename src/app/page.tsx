@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import btn from "~/ui/BtnAdd/BtnAdd.module.css"
 import InputText from "~/ui/InputText";
 import BtnAdd from "~/ui/BtnAdd";
 
@@ -17,7 +16,7 @@ export default function Home() {
         }}/>
       </div>
       <div>
-        <BtnAdd className={btn['btn-class']}>Enviar</BtnAdd>
+        <BtnAdd className='container'>Enviar</BtnAdd>
       </div>
     </div>
   );

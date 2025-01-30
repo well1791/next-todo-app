@@ -10,6 +10,7 @@ function InputText({ onChange}: InputTextProps) {
       type="text" 
       placeholder="Ingresar tarea..."
       onChange={(event) => onChange(event.target.value)}
+      className={`${style.container}`}
     />
   )
 }
