@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import btn from "~/ui/BtnAdd/btn.module.css"
+import btn from "~/ui/BtnAdd/BtnAdd.module.css"
 import InputText from "~/ui/InputText";
 import BtnAdd from "~/ui/BtnAdd";
 
