@@ -4,9 +4,11 @@ type BtnAddProps = React.PropsWithChildren<{
   className: string;
 }>;
 
-function BtnAdd( {children, className }: BtnAddProps) {
+function BtnAdd({ children, className }: BtnAddProps) {
   return (
-    <button type="button" className={`${style.container} ${className}`}>{children}</button>
+    <button type="button" className={`${style.container} ${className}`}>
+      {children}
+    </button>
   )
 }
 
