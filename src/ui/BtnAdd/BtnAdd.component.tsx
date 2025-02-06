@@ -1,7 +1,7 @@
 import style from "./BtnAdd.module.css";
 
 type BtnAddProps = React.PropsWithChildren<{
-  className: string;
+  className?: string;
 }>;
 
 function BtnAdd({ children, className }: BtnAddProps) {

@@ -15,7 +15,7 @@ export default function Home() {
         }}/>
       </div>
       <div className="todo-list-btnAdd">
-        <BtnAdd className='container'>Enviar</BtnAdd>
+        <BtnAdd>Enviar</BtnAdd>
       </div>
     </div>
   );
