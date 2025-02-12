@@ -7,14 +7,14 @@ import BtnAdd from "~/ui/BtnAdd";
 
 export default function Home() {
   return (
-    <div className="todo-list">
+    <div className={styles["todo-list"]}>
       <h1>To Do List</h1>
-      <div className="todo-list-inputText">
+      <div className={styles["todo-list-inputText"]}>
         <InputText onChange={(text) => {
           console.log(text);
         }}/>
       </div>
-      <div className="todo-list-btnAdd">
+      <div>
         <BtnAdd>Enviar</BtnAdd>
       </div>
     </div>

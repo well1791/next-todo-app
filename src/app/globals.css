@@ -40,16 +40,3 @@ a {
     color-scheme: dark;
   }
 }
-
-/* estilos del todo list */
-
-.todo-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.todo-list-inputText {
-  margin: 10px 0;
-}
