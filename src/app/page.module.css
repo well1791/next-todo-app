@@ -166,7 +166,7 @@ a.secondary {
     filter: invert();
   }
 }
-/* Estilos */
+
 .todo-list {
   display: flex;
   flex-direction: column;
